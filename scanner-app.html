@@ -3,27 +3,160 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Case Study: Meltdown & Scanner App Design - Dr. Raza Habib, AI-native Senior Product Leader & Management Consultant.">
-    <meta name="keywords" content="Meltdown, Scanner App, Security, B2C, Case Study, Product Management, UX, UI, Mobile Application">
+    <meta name="description" content="Case Study: Scanner App Redesign - Dr. Raza Habib, AI-native Senior Product Leader & Management Consultant.">
+    <meta name="keywords" content="Scanner App, Case Study, Product Management, UX, UI, Mobile App, Security">
     <meta name="author" content="Dr. Raza Habib">
     
-    <title>Case Study: Meltdown & Scanner App Design - Dr. Raza Habib</title>
+    <title>Case Study: Scanner App Redesign - Dr. Raza Habib</title>
     
+    <!-- Preconnect to external resources -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="navbar" id="navbar">
+        <nav class="nav-container">
+            <div class="nav-brand">
+                <a href="./index.html" class="brand-link">
+                    <span class="brand-text">Dr. Raza Habib</span>
+                    <span class="brand-subtitle">Product Leader</span>
+                </a>
+            </div>
+            
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="./index.html#home" class="nav-link" data-section="home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./index.html#about" class="nav-link" data-section="about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./index.html#experience" class="nav-link" data-section="experience">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./index.html#case-studies" class="nav-link active" data-section="case-studies">Case Studies</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./index.html#contact" class="nav-link" data-section="contact">Contact</a>
+                </li>
+            </ul>
+            
+            <div class="nav-actions">
+                <a href="./index.html#contact" class="btn btn-primary">
+                    <span>Let's Connect</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+            
+            <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Toggle mobile menu">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+        </nav>
+        
+        <!-- Progress Indicator -->
+        <div class="scroll-progress" id="scroll-progress"></div>
+    </header>
+
+    <main>
+        <section class="case-study-hero" style="padding-top:120px;">
+            <div class="container">
+                <div class="case-study-header">
+                    <span class="section-badge">Case Study</span>
+                    <h1 class="case-study-title">Scanner App Redesign</h1>
+                    <p class="case-study-subtitle">Redesigned the mobile scanner app to deliver faster, smarter scans with a modern UI and seamless user experience.</p>
+                    <div class="case-study-meta">
+                        <div class="meta-item">
+                            <i class="fas fa-briefcase"></i>
+                            <span>Role: Lead Product Manager</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>Year: 2022</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-globe"></i>
+                            <span>Platform: Mobile Application</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-industry"></i>
+                            <span>Industry: Security</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="case-study-content">
+            <div class="container">
+                <div class="content-block">
+                    <h2>Project Overview</h2>
+                    <p>The scanner app was designed to detect and remove threats on mobile devices. However, its outdated interface and slow scanning speed discouraged users from regular use.</p>
+                    <p>The redesign focused on speed, user trust, and usability — delivering faster scans, clearer results, and an engaging interface that encouraged adoption.</p>
+                </div>
+
+                <div class="content-block">
+                    <h2>My Role & Responsibilities</h2>
+                    <ul>
+                        <li>Product Strategy: Defined product vision and aligned with company mobile-first strategy.</li>
+                        <li>User Research: Collected insights on scan frequency, trust signals, and user expectations.</li>
+                        <li>UX Redesign: Collaborated with designers to simplify flows and add visual clarity.</li>
+                        <li>Engineering Collaboration: Oversaw technical implementation and ensured performance gains.</li>
+                        <li>KPIs: Monitored scan completion rates, app retention, and Net Promoter Score (NPS).</li>
+                    </ul>
+                </div>
+
+                <div class="content-block">
+                    <h2>Key Challenges</h2>
+                    <ul>
+                        <li>Lengthy scan times discouraged adoption.</li>
+                        <li>Unclear scan results reduced user confidence.</li>
+                        <li>Outdated design failed to meet user expectations for modern apps.</li>
+                    </ul>
+                </div>
+
+                <div class="content-block">
+                    <h2>Solutions & Impact</h2>
+                    <p>Optimized the scan engine for 2x faster results, introduced color-coded trust signals, and added contextual explanations for detected threats. Delivered a fresh, modern UI aligned with mobile design standards.</p>
+                    <p>The redesign doubled daily active scans, improved retention by 35%, and boosted NPS by 25 points.</p>
+                </div>
+
+                <div class="content-block">
+                    <h2>Visuals & Prototypes</h2>
+                    <div class="case-study-images">
+                        <img src="./assets/images/case-studies/portfolio-page-22.png" alt="Scanner App Overview" class="case-study-image">
+                        <img src="./assets/images/case-studies/portfolio-page-23.png" alt="User Research Findings" class="case-study-image">
+                        <img src="./assets/images/case-studies/portfolio-page-24.png" alt="Wireframes" class="case-study-image">
+                        <img src="./assets/images/case-studies/portfolio-page-25.png" alt="UI Prototypes" class="case-study-image">
+                        <img src="./assets/images/case-studies/portfolio-page-26.png" alt="Final App Screens" class="case-study-image">
                     </div>
                 </div>
 
                 <div class="content-block">
                     <h2>Learnings & Future Directions</h2>
-                    <p>This project highlighted the importance of clear, empathetic communication in security products. Future work could involve integrating AI for predictive threat analysis and personalized security recommendations within the browser context.</p>
+                    <p>This project highlighted the importance of performance in mobile UX. Future iterations could explore predictive threat detection and integration with wearable devices for real-time alerts.</p>
                 </div>
 
                 <div class="navigation-buttons">
-                    <a href="/UXPortfolio/mobile-workflow.html" class="btn btn-secondary">
+                    <a href="/UXPortfolio/browser-extension.html" class="btn btn-secondary">
                         <i class="fas fa-arrow-left"></i>
                         <span>Previous Case Study</span>
                     </a>
-                    <a href="/UXPortfolio/upgrade-center.html" class="btn btn-primary">
+                    <a href="/UXPortfolio/mobile-workflow.html" class="btn btn-primary">
                         <span>Next Case Study</span>
                         <i class="fas fa-arrow-right"></i>
                     </a>
@@ -39,7 +172,6 @@
             <div class="social-links">
                 <a href="https://www.linkedin.com/in/raza-habib/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
                 <a href="https://github.com/RazaHabib/UXPortfolio" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
-                <!-- Add other social links as needed -->
             </div>
         </div>
     </footer>
@@ -48,5 +180,3 @@
     <script src="./assets/js/main.js"></script>
 </body>
 </html>
-
-
